@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(orange, white);
+    height: 100vh;
+    width: 100vw;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#define {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#p2 {
+    font-style: italic;
+}
