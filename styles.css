@@ -1,7 +1,7 @@
 body {
-    background-image: linear-gradient(orange, white);
+    background-color: lightgray;
+    margin: 0;
     height: 100vh;
-    width: 100vw;
 }
 
 html {
@@ -9,13 +9,42 @@ html {
 }
 
 header {
+    background-color: gray;
+    width: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    color: white;
 }
 
 #define {
     font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+#p1 {
+    font-size: 1.1em;
+    padding: 0;
 }
 
 #p2 {
     font-style: italic;
+}
+
+#form input {
+    width: 40vw;
+    padding: 0.5em;
+    margin: 0.8em;
+}
+
+#convertButton {
+    border-radius: 100px;
+}
+
+.resultsContainer div {
+    padding: 1em;
+}
+
+footer {
+    background-color: gray;
+    color: white;
 }
