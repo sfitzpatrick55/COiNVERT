@@ -48,6 +48,14 @@ header {
     font-size: 1em;
 }
 
+#cryptoLogo {
+    padding: 1rem;
+}
+
+#cryptoLogo img {
+    padding: 0.7rem;
+}
+
 #form input {
     width: 40vw;
     padding: 0.5em;
