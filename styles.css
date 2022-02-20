@@ -26,15 +26,26 @@ header {
 #define {
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
+    padding: 0rem 1.5rem .5rem 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    min-width: 50vw;
+    box-sizing: border-box;
 }
 
 #p1 {
-    font-size: 1.1em;
-    padding: 0;
+    font-size: 1.2em;
+    color: darkgrey;
 }
 
 #p2 {
+    font-size: 1.1em;
+    color: darkgrey;
     font-style: italic;
+}
+
+#p3 {
+    font-size: 1em;
 }
 
 #form input {
