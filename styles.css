@@ -10,7 +10,7 @@ html {
 
 header {
     background-color: white;
-    padding: 0;
+    padding: 0.5rem;
     border-bottom: 1px solid dimgray;
     box-shadow:
         0 1px 2px 0 rgba(0, 0, 0, 0.2),
@@ -63,6 +63,18 @@ header {
 }
 
 footer {
-    background-color: gray;
-    color: white;
+    background-color: white;
+    font-size: 0.8em;
+    color: steelblue;
+    padding: 0.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: steelblue
+}
+
+footer a:hover {
+    color: lightsteelblue;
+    cursor: pointer;
 }
