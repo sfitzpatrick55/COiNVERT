@@ -50,7 +50,7 @@ function searchCoins(coinJSON) {
     dogecoin = coinJSON.find(({ symbol }) => symbol === "doge");
     
     const input = document.getElementById("dollarAmount").value;
-    if (isNaN(input)) {
+    if (isNaN(input) || input == 0 ) {
         alert("Oh no, you didn't enter a valid number, try again!");
     }
     
@@ -66,5 +66,4 @@ function searchCoins(coinJSON) {
     document.getElementById("USDC").innerHTML = `<img src=./assets/USD_Coin_icon.webp height="20vh" /> You could purchase <strong>${usdcCalc}</strong> ${usdCoin.name} (${usdCoin.symbol})<br /> Current Price per Coin: $${usdCoin.current_price}`;
     
     document.getElementById("DOGE").innerHTML = `<img src=./assets/dogecoin.webp height="20vh" /> You could purchase <strong>${dogeCalc}</strong> ${dogecoin.name} (${dogecoin.symbol})<br /> Current Price per Coin: $${dogecoin.current_price}`;
-    
 }
