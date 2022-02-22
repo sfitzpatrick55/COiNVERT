@@ -51,7 +51,7 @@ function searchCoins(coinJSON) {
     
     const input = document.getElementById("dollarAmount").value;
     if (isNaN(input) || input == 0 ) {
-        alert("Oh no, you didn't enter a valid number, try again!");
+        alert("Oops, you didn't enter a valid number, try again!");
     }
     
     let btcCalc = input / bitcoin.current_price;
