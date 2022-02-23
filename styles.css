@@ -1,11 +1,12 @@
+html {
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
 body {
     background-color: lightsteelblue;
     margin: 0;
     height: 100vh;
-}
-
-html {
-    font-family: sans-serif;
 }
 
 header {
