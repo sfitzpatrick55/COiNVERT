@@ -19,6 +19,8 @@ document.getElementById("coinHeader").style.textAlign = "center";
 
 document.getElementById("cryptoLogo").style.textAlign = "center";
 
+document.getElementById("instructions").style.textAlign = "center";
+
 document.getElementById("form").style.textAlign = "center";
 
 document.getElementById("coinFooter").style.textAlign = "center";

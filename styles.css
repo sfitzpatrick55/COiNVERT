@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: white;
-    padding: 0.5rem;
+    padding: 0.3rem;
     border-bottom: 1px solid dimgray;
     box-shadow:
         0 1px 2px 0 rgba(0, 0, 0, 0.2),
@@ -20,7 +20,7 @@ header {
     left: 0;
     width: 100vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: steelblue;
 }
 
@@ -28,9 +28,13 @@ header {
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
     padding: 0rem 1.5rem .5rem 1.5rem;
+    border-bottom: 1px solid dimgray;
+    box-shadow:
+        0 1px 2px 0 rgba(0, 0, 0, 0.2),
+        0 1px 15px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
-    border-radius: 8px;
-    min-width: 50vw;
+    border-radius: 12px;
+    max-width: 75vw;
     box-sizing: border-box;
 }
 
@@ -57,14 +61,47 @@ header {
     padding: 0.7rem;
 }
 
+#instructions {
+    margin: auto;
+    padding: 0 1.5rem;
+    max-width: 75vw;
+}
+
+#form {
+    font-size: 1.2em;
+}
+
 #form input {
-    width: 40vw;
+    width: 15vw;
     padding: 0.5em;
     margin: 0.8em;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.3em;
+    text-align: center;
 }
 
 #convertButton {
     border-radius: 100px;
+    border: 0;
+    border-bottom: 1px solid dimgray;
+    box-shadow:
+        0 1px 2px 0 rgba(0, 0, 0, 0.2),
+        0 1px 15px 0 rgba(0, 0, 0, 0.19);
+        height: 12vh;
+        width: fit-content;
+}
+
+#convertButton:hover {
+    color: lightsteelblue;
+    cursor: pointer;
+}
+
+.resultsContainer {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 75vw;
+    text-align: center;
 }
 
 .resultsContainer div {
