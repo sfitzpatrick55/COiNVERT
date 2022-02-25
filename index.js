@@ -63,9 +63,9 @@ function searchCoins(coinJSON) {
     
     document.getElementById("BTC").innerHTML = `<img src=./assets/bitcoin.webp height="20vh" /> You could purchase <strong>${btcCalc}</strong> ${bitcoin.name} (${bitcoin.symbol})<br /> Current price per coin: $${bitcoin.current_price}`;
     
-    document.getElementById("ETH").innerHTML = `<img src=./assets/ethereum.webp height="20vh" /> You could purchase <strong>${ethCalc}</strong> ${ethereum.name} (${ethereum.symbol}) <br /> Current Price per Coin: $${ethereum.current_price}`;
+    document.getElementById("ETH").innerHTML = `<img src=./assets/ethereum.webp height="20vh" /> You could purchase <strong>${ethCalc}</strong> ${ethereum.name} (${ethereum.symbol}) <br /> Current price per coin: $${ethereum.current_price}`;
     
-    document.getElementById("USDC").innerHTML = `<img src=./assets/USD_Coin_icon.webp height="20vh" /> You could purchase <strong>${usdcCalc}</strong> ${usdCoin.name} (${usdCoin.symbol})<br /> Current Price per Coin: $${usdCoin.current_price}`;
+    document.getElementById("USDC").innerHTML = `<img src=./assets/USD_Coin_icon.webp height="20vh" /> You could purchase <strong>${usdcCalc}</strong> ${usdCoin.name} (${usdCoin.symbol})<br /> Current price per coin: $${usdCoin.current_price}`;
     
-    document.getElementById("DOGE").innerHTML = `<img src=./assets/dogecoin.webp height="20vh" /> You could purchase <strong>${dogeCalc}</strong> ${dogecoin.name} (${dogecoin.symbol})<br /> Current Price per Coin: $${dogecoin.current_price}`;
+    document.getElementById("DOGE").innerHTML = `<img src=./assets/dogecoin.webp height="20vh" /> You could purchase <strong>${dogeCalc}</strong> ${dogecoin.name} (${dogecoin.symbol})<br /> Current price per coin: $${dogecoin.current_price}`;
 }
