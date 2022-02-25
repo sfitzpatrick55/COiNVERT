@@ -73,6 +73,7 @@ header {
 
 #form input {
     width: 15vw;
+    min-width: 100px;
     padding: 0.5em;
     margin: 0.8em;
     border-radius: 5px;
