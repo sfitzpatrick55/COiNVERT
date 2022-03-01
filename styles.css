@@ -2,11 +2,13 @@
 
 html {
     overflow-x: hidden;
+    min-height: 100%;
     font-family: sans-serif;
 }
 
 body {
-    background-image: linear-gradient(lightsteelblue, white);
+    background-image: linear-gradient(steelblue, lightsteelblue);
+    background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
 }
