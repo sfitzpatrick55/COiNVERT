@@ -82,7 +82,7 @@ header img {
 }
 
 #form input {
-    width: fit-content;
+    width: 12vw;
     min-width: 100px;
     padding: 0.4em;
     margin: 0.8em;
