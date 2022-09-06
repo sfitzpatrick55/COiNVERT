@@ -2,7 +2,7 @@
 By: `Scott Fitzpatrick`
 
 ## Description
-COiNVERT is a straight-forward web application that aims to educate people about cryptocurrency by allowing them to convert a US dollar amount to five popular cryptocurrencies at the same time.
+COiNVERT is a straight-forward web application that aims to educate people about cryptocurrency by enabling them to convert a US Dollar amount to five popular cryptocurrencies in real time simultaneously.
 
 ## Target audience
 This app is perfect for anyone who is new to cryptocurrency and would like to explore how conversion rates change in real time.
